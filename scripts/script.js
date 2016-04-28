@@ -243,8 +243,8 @@ function showInitialize(){
             .clear()
             .put('&nbsp;')
             .type('Welcome!')
-            .wait(2000);
-            .clear()
+            .wait(2000)
+            .clear();
 }
 
 $(document).ready(function () {
